@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"./package/mathClass"
+	"../package/mathClass"
 )
 
 func main() {

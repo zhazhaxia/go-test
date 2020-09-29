@@ -17,12 +17,19 @@ func main() {
 
     mnInt1,mnInt2,mnString := multiNumber();
 
+    var arrayInt  = [3] int{3,5,6}
+
+    var point *int 
+    point = &d2;
+
     fmt.Println(subName)
     fmt.Println(d1,d2)
     fmt.Println(boolean)
     fmt.Println(shengming)
     fmt.Println(g1,g2)
     fmt.Println(mnInt1,mnInt2,mnString)
+    fmt.Println(arrayInt)
+    fmt.Println("指针：",point,*point)
 }
 
 
